@@ -1,0 +1,31 @@
+#profile-container {
+    margin: auto;
+    width: 200px;
+}
+#profile-img {
+    width:200px;
+    height:200px;
+    object-fit:none;
+    object-position: 40% 10%;
+    border-radius: 50%;
+}
+#card-body {
+    margin: auto;
+    width: 60%;
+}
+body {
+    background: #18FFFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right, #00E5FF , #18FFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #00E5FF , #18FFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #00E5FF , #18FFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #00E5FF , #18FFFF); /* Standard syntax */
+    border: 3px solid black;
+    border-radius: 20%;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    font: 700;
+    text-align: center;
+}
